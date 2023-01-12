@@ -57,21 +57,21 @@ before running the script `main.py`. The current set-up deals with 3 cases of ML
 If run correctly, the expected figure would be:
 
 <p align="center">
-  <img width="700" src="figures_for_readme/figure1-eps-converted-to.png" alt>
+  <img width="700" src="figures_for_readme/figure1.png" alt>
 </p>
 <p align="center">
 Figure 1. A sequence: training trajectories --> singals and class labels --> optimal weights of the SVM ---> agent based simulation.
 </p>
 
 <p align="center">
-  <img width="700" src="figures_for_readme/figure2-eps-converted-to.png" alt>
+  <img width="700" src="figures_for_readme/figure2.png" alt>
 </p>
 <p align="center">
 Figure 2. ML-agent vs ideal-agent. Various quality measures.
 </p>
 
 <p align="center">
-  <img width="350" src="figures_for_readme/figure4-eps-converted-to.png" alt>
+  <img width="350" src="figures_for_readme/figure4.png" alt>
 </p>
 <p align="center">
 Figure 4. Chemotactic Index as a function of $D_{\mathrm{rot}}$, for a range of signal strength. CI is better with small $D_{\mathrm{rot}}$.

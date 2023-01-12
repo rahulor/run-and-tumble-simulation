@@ -7,7 +7,7 @@
 *.dvi
 *.ps
 
-__pycache__
+**/__pycache__/
 
 # ...except the ones we want
 !figures_eps/traj.eps

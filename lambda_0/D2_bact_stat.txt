@@ -1,0 +1,4 @@
+total number of agents         10000
+agents reached the target       8625
+agents moved out                1367
+agents still roaming around        8

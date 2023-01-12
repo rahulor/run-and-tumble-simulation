@@ -1,0 +1,11 @@
+
+*.pdf
+*.eps
+*.aux
+*.log
+*.gz
+*.dvi
+*.ps
+
+# ...except the ones we want
+!figures_eps/traj.eps

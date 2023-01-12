@@ -1,0 +1,34 @@
+\documentclass[crop,tikz]{standalone}%
+\usetikzlibrary{calc}
+\usepackage{amsmath, amsfonts}
+\usetikzlibrary{calc, positioning, shapes.callouts}
+
+\begin{document}
+
+\begin{tikzpicture}
+\def\abcsize{\normalsize}
+\def\panelH{55 mm}
+\def\panelW{165 mm}
+\tikzstyle{panelstyle} = [draw=white, fill=white, rectangle, align = left, inner sep=0pt, minimum width= \panelW, minimum height = \panelH]
+\node [panelstyle] (panel){};
+\coordinate (corner) at (panel.north west);
+\node (passage) at (corner) [anchor=north west, inner xsep=0pt, inner ysep=0pt] {
+\includegraphics[trim={0 0 0 0}, clip, scale=0.97]{fig/time_to_target.eps}};
+\node at (passage.north west) [anchor= north west, inner xsep=0pt, inner ysep=1pt] {\abcsize {\textbf{(a)}}};
+\coordinate (corner) at (passage.north east);
+\node (ci) at (corner) [anchor=north west, inner xsep=0pt, inner ysep=0pt] {
+\includegraphics[trim={0 0 0 0}, clip, scale=1]{fig/ci_and_tres.eps}};
+\node at (ci.north west) [anchor= north west, inner xsep=0pt, inner ysep=1pt] {\abcsize {\textbf{(b)}}};
+\node at (ci.north west) [anchor= north west, inner xsep=0pt, inner ysep=25mm] {\abcsize {\textbf{(c)}}};
+%
+\coordinate (corner) at (panel.south east);
+\node (fpfn) at (corner) [anchor=south east, inner xsep=0pt, inner ysep=0pt] {
+\includegraphics[trim={0 0 0 0}, clip, scale=0.95]{fig/fpfn.eps}};
+\node at (fpfn.north west) [anchor= north west, inner xsep=0pt, inner ysep=0pt] {\abcsize {\textbf{(d)}}};
+\end{tikzpicture}
+\end{document}
+
+
+% latex  nvar_diagram.tex
+% dvips figure.dvi -o figure.eps
+

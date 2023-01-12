@@ -3,7 +3,7 @@ What to expect in this project:
 - The run-and-tumble motion has been implemented using support vector machine (SVM).
 - Large-scale agent based simulations for a wide range of parameters.
 - Comparison of various performance measures such as first passsage times, Chemotactic Index (CI), etc.
-- Necessary data to reproduce figure 1, 2 and 4 of the manuscript/article -- "Learning run-and-tumble chemotaxis" [Rahul O. Ramakrishnan and Benjamin M. Friedrich](https://link_to_arXiv)
+- Necessary data to reproduce figure 1, 2 and 4 of the manuscript/article -- "Learning run-&-tumble chemotaxis with support vector machines" [Rahul O. Ramakrishnan and Benjamin M. Friedrich](https://link_to_arXiv)
 - Source code in Python to reproduce the data
 
 ## Motivation
@@ -57,21 +57,21 @@ before running the script `main.py`. The current set-up deals with 3 cases of ML
 If run correctly, the expected figure would be:
 
 <p align="center">
-  <img width="700" src="figures_for_readme/figure1-eps-converted-to.png" alt>
+  <img width="700" src="figures_for_readme/figure1.png" alt>
 </p>
 <p align="center">
 Figure 1. A sequence: training trajectories --> singals and class labels --> optimal weights of the SVM ---> agent based simulation.
 </p>
 
 <p align="center">
-  <img width="700" src="figures_for_readme/figure2-eps-converted-to.png" alt>
+  <img width="700" src="figures_for_readme/figure2.png" alt>
 </p>
 <p align="center">
 Figure 2. ML-agent vs ideal-agent. Various quality measures.
 </p>
 
 <p align="center">
-  <img width="350" src="figures_for_readme/figure4-eps-converted-to.png" alt>
+  <img width="350" src="figures_for_readme/figure4.png" alt>
 </p>
 <p align="center">
 Figure 4. Chemotactic Index as a function of $D_{\mathrm{rot}}$, for a range of signal strength. CI is better with small $D_{\mathrm{rot}}$.

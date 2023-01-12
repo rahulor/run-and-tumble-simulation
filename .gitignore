@@ -11,3 +11,4 @@
 
 # ...except the ones we want
 !figures_eps/traj.eps
+*.pyc

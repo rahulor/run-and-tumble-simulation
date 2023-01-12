@@ -1,20 +1,31 @@
 ## Additional figures
- <p align="center">
+<p align="center">
   <img width="300" src="figures_for_readme/conc_profile.png" alt>
   <img width="300" src="figures_for_readme/init_position.png" alt>
 </p>
-
-In this task, we start all the tranining trajectories at a fixed radial distance (left). Sample trajectories are shown here for a short run of $T_{\mathrm{max}} = 1$ s (right). Target is at the center which has a finite radius shown in color-magenta. Supervised learning
-
+<p align="center">
+Exponential concentration profile as a function of the radial distance from the target (magenta) is shown. Starting position of the training trajectories are uniformly distributed in the search domain.
+</p>
 
 <p align="center">
   <img width="800" src="figures_for_readme/weights_grid.png" alt>
 </p>
 
 <p align="center">
- <img width="400" src="figures_for_readme/score_uniform.png" alt>
+Optimal weights learned from short trajectories of $T_{\mathrm{max}} = 1$ s.
 </p>
 
 <p align="center">
+ <img width="400" src="figures_for_readme/score_uniform.png" alt>
+</p>
+<p align="center">
+Fraction of predictions matching with the true labels for a an independent test data.
+</p>
+
+
+<p align="center">
   <img width="800" src="figures_for_readme/runtime_grid.png" alt>
+</p>
+<p align="center">
+Run time is the time duration between two successive tumbles. 
 </p>

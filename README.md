@@ -3,7 +3,7 @@ What to expect in this project:
 - The run-and-tumble motion has been implemented using support vector machine (SVM).
 - Large-scale agent based simulations for a wide range of parameters.
 - Comparison of various performance measures such as first passsage times, Chemotactic Index (CI), etc.
-- Necessary data to reproduce figure 1, 2 and 4 of the manuscript/article -- "Learning run-and-tumble chemotaxis" [Rahul O. Ramakrishnan and Benjamin M. Friedrich](https://link_to_arXiv)
+- Necessary data to reproduce figure 1, 2 and 4 of the manuscript/article -- "Learning run-&-tumble chemotaxis with support vector machines" [Rahul O. Ramakrishnan and Benjamin M. Friedrich](https://link_to_arXiv)
 - Source code in Python to reproduce the data
 
 ## Motivation

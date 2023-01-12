@@ -10,8 +10,9 @@ Exponential concentration profile as a function of the radial distance from the 
 <p align="center">
   <img width="800" src="figures_for_readme/weights_grid.png" alt>
 </p>
+
 <p align="center">
-Optimal weights learned from short trajectories of $T_\mathrm{max} = 1\, $ s.
+Optimal weights learned from short trajectories of $T_{\mathrm{max}} = 1$ s.
 </p>
 
 <p align="center">

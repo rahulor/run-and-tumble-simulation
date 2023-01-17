@@ -78,3 +78,4 @@ Figure 4. Chemotactic Index as a function of $D_{\mathrm{rot}}$, for a range of 
 </p>
 
 [Additional information](additional_info.md)
+[effective measurement time](https://github.com/rahulor/run-and-tumble-effective-time)

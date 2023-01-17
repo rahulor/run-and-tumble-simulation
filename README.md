@@ -77,5 +77,7 @@ Figure 2. ML-agent vs ideal-agent. Various quality measures.
 Figure 4. Chemotactic Index as a function of $D_{\mathrm{rot}}$, for a range of signal strength. CI is better with small $D_{\mathrm{rot}}$.
 </p>
 
+### Related
 [Additional information](additional_info.md)
+
 [effective measurement time](https://github.com/rahulor/run-and-tumble-effective-time)

@@ -108,7 +108,7 @@ def CI_vs_Drot():
         ax.plot(D_rot, ci, label = Ltext, color=colors[j], linewidth=0.5)
         #ax.fill_between(D_rot, ci - ci_sem/2, ci + ci_sem/2, color='gray')
     ax.set_ylabel(r'CI', rotation=0, labelpad=8)
-    ax.set_xlabel(r'$D_{\mathrm{rot}}\, [\mathrm{rad}^2/s]$', rotation=0, labelpad=2)
+    ax.set_xlabel(r'$D_{\mathrm{rot}}\, [\mathrm{rad}^2/\mathrm{s}]$', rotation=0, labelpad=2)
     ax.set_xscale('symlog', linthresh=0.001)
     
     # hpos = 0.5*D_rot[-1]

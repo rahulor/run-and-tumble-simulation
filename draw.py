@@ -217,7 +217,7 @@ def score_vs_Drot():
                 va='top', ha='center', size=10)
     ax.text(hpos*1.1, 85, r'$\lambda$', color='black', size=8, ha='left', va='center')
     ax.set_ylabel(r'score [$\%$]', rotation=90, labelpad=-2)
-    ax.set_xlabel(r'$D_{\mathrm{rot}}\, [\mathrm{rad}^2/s]$', rotation=0, labelpad=2)
+    ax.set_xlabel(r'$D_{\mathrm{rot}}\, [\mathrm{rad}^2/\mathrm{s}]$', rotation=0, labelpad=2)
     ax.legend(loc=(0.1,0.1), title=r'$\lambda\, [1/(\mu\mathrm{M}\, \mathrm{s})]$', title_fontsize=8,
               fontsize=7, facecolor='white', framealpha=1)
     ax.set_xscale('symlog', linthresh=0.001)
